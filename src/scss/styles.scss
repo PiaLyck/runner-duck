@@ -8,12 +8,14 @@ body {
 
 .site {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto 1fr 3fr;
 }
 
 .logo-container {
     background-color: aquamarine;
+    grid-column: 1/1;
+    grid-row: 1/1;
 }
 
 .header {
@@ -22,19 +24,25 @@ body {
 
 .main-content {
     background-color: whitesmoke;
+    grid-column: 2/4;
+    grid-row: 2/3;
 }
 
 .sidebar {
     background-color: lightcoral;
+    grid-column: 1/2;
+    grid-row: 2/2;
 }
 
 .footer {
     background-color: blue;
+    grid-column: 1/4;
+    grid-row: 3/3;
 }
 
 
 /* IMAGES */
 
 img {
-    width: 30px;
+    width: 60px;
 }
