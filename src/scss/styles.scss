@@ -1,4 +1,40 @@
-body{
+body {
+    background-color: yellow;
+    color: black;
+}
+
+
+/* LAYOUT IN CSS GRID */
+
+.site {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto 1fr 3fr;
+}
+
+.logo-container {
+    background-color: aquamarine;
+}
+
+.header {
+    background-color: seagreen;
+}
+
+.main-content {
     background-color: whitesmoke;
-    color:tomato;
+}
+
+.sidebar {
+    background-color: lightcoral;
+}
+
+.footer {
+    background-color: blue;
+}
+
+
+/* IMAGES */
+
+img {
+    width: 30px;
 }
