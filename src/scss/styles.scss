@@ -47,7 +47,7 @@ blockquote {
 
 .main-content {
     background-color: white;
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 2/3;
 }
 
@@ -55,17 +55,20 @@ blockquote {
     background-color: $green;
     grid-column: 1/2;
     grid-row: 2/2;
+    color:$peach;
 }
 
 .quotes {
     background-color: $peach;
-    grid-column: 4/5;
+    grid-column: 3/5;
+    grid-row: 2;
 }
 
 .footer {
     background-color: $blue;
     grid-column: 1/5;
     grid-row: 3/3;
+    color:$corn;
 }
 
 
@@ -85,4 +88,9 @@ img {
 header>img {
     width: auto;
     height: 200px;
+}
+
+/* LINKS */
+a, a:link, a:visited, a:hover, a:active{
+    color: $corn;
 }
